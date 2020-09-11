@@ -1,0 +1,26 @@
+<html>
+    <head>
+    <script type="text/javascript">
+    function copyText(){
+        var originalText=document.getElementById("first").value;
+       var  copiedText=document.getElementById("second");
+        copiedText.value=originalText;
+    }
+    </script>
+    </head>
+    <body>
+<div >
+    <label for="originalText">originalText</label>
+    <input type="text" id ="first" name= "originalText"  ><br><br>
+    <button id="copy"  onclick="copyText();"> copy</button><br><br>
+    <label for="copiedText">copiedText</label>
+    <input type="text" id ="second" name= "copiedText"  >
+</div>
+
+    </body>
+
+
+
+
+
+</html>
